@@ -1,6 +1,6 @@
 # ⚔️ Maratona Java — Desafio 01: Arena de Batalha
 
-> **Tecnologias:** `Java` • `IntelliJ IDEA` • **Status:** `Concluído ✅`
+> **Tecnologias:** `Java` • `IntelliJ` • **Status:** `Em processo ⏰`
 
 Simulador de batalha por turnos desenvolvido em **Java** durante os estudos da **Maratona Java (DevDojo)** para praticar os fundamentos de Programação Orientada a Objetos (POO).
 
