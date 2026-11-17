@@ -1,8 +1,6 @@
 # ⚔️ Maratona Java — Desafio 01: Arena de Batalha
 
-![Java](https://shields.io)
-![IntelliJ IDEA](https://shields.io)
-![Status](https://shields.io)
+> **Tecnologias:** `Java` • `IntelliJ IDEA` • **Status:** `Concluído ✅`
 
 Simulador de batalha por turnos desenvolvido em **Java** durante os estudos da **Maratona Java (DevDojo)** para praticar os fundamentos de Programação Orientada a Objetos (POO).
 
@@ -50,7 +48,7 @@ Vencedor: Goku!
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com
+   git clone https://github.com/Felps-TL/Desafio01Claude.git
    ```
 2. Abra a pasta do projeto no **IntelliJ IDEA**.
 3. Navegue até `src/Desafio01/Test/Arena.java` e execute o método `main`.
@@ -59,4 +57,4 @@ Vencedor: Goku!
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **[Seu Nome](https://github.com)** 🚀
+Desenvolvido por **Felipe Tolesquini(https://github.com/Felps-TL)** 🚀
