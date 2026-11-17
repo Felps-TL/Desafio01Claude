@@ -1,0 +1,31 @@
+O Desafio é uma Arena de Anime: um duelo por turnos entre dois personagens, que treina classes, métodos com retorno e a diferença entre passar um int e passar um objeto.
+
+   Regras: crie um pacote desafio01 com dois arquivos, Personagem.java e Arena.java (com o main). Deixe os atributos sem private por enquanto. O this aparece na aula 51, private com get e set nas aulas 54 a 56 e construtores nas 58 e 59, então evite tudo isso agora. Você vai refatorar o jogo com eles depois. Pode consultar a sintaxe e suas anotações, mas não copiar um jogo pronto.
+
+   Fase 1: classe e objetos. Crie Personagem com nome, vida, ataque e defesa, e um método apresentar() que imprime algo como Goku | Vida: 100 | Ataque: 25 | Defesa: 5. Na Arena, crie dois personagens e apresente os dois.
+
+   Fase 2: métodos com parâmetro e retorno.
+
+   int calcularDano(Personagem alvo): ataque de quem ataca menos a defesa do alvo, sempre com no mínimo 1 de dano.
+   void atacar(Personagem alvo): tira a vida do alvo (nunca abaixo de 0) e imprime o resultado.
+   boolean estaVivo().
+
+   Dica: o método usa o próprio ataque e a defesa do alvo que chega como parâmetro.
+
+   Fase 3: o duelo. Um laço alterna os ataques até alguém cair, mostrando a rodada e a vida de cada um, e anuncia o vencedor:
+
+   --- Rodada 1 ---
+   Goku atacou Naruto e causou 17 de dano! (Naruto: 73 de vida)
+   Naruto atacou Goku e causou 15 de dano! (Goku: 85 de vida)
+   ...
+   Naruto foi derrotado! Goku venceu em 6 rodadas.
+
+   Dica: se o primeiro ataque derrota o oponente, o derrotado não pode contra-atacar. Pra alternar, dá pra usar o resto da divisão da rodada ou duas variáveis atacante e defensor que trocam de lugar a cada turno.
+
+   Fase 4: experimento (aulas 48 e 49). Crie dois métodos: um recebe um int e soma 30 nele, o outro recebe um Personagem e soma 30 na vida dele. Chame os dois com o mesmo personagem, imprima a vida antes e depois de cada um e explique num comentário, com suas palavras, por que só um deles muda a vida.
+
+   Bônus: golpe crítico com 20% de chance e dano dobrado (procure Random), ou um menu em que o jogador escolhe atacar, defender (reduz o próximo dano) ou curar (no máximo 3 vezes).
+
+   Você passa se o duelo sempre termina com um vencedor e a vida nunca fica negativa, se o atacar altera o personagem original sem precisar devolver nada, e se você consegue explicar a Fase 4. Faça um commit por fase.
+
+   Se travar, me peça uma dica da fase, não a solução. Quando terminar, cole o código aqui que eu reviso.
