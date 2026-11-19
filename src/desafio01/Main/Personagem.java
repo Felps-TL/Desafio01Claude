@@ -23,4 +23,4 @@ public class Personagem {
         System.out.println(nome + " atacou Naruto e causou " + dano + " de dano! " + "(" + personagem.nome + ": " + personagem.vida + " de vida)");
     }
 }
-///
+//
