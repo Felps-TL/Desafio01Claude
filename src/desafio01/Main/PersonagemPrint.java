@@ -7,4 +7,4 @@ public class PersonagemPrint {
         System.out.println("Nome:" + personagem.nome + " || Vida:" + personagem.vida + " || Atk:" + personagem.atk + " || Def:" + personagem.def);
     }
 }
-//
+///
