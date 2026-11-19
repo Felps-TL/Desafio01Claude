@@ -1,6 +1,6 @@
 # ⚔️ Maratona Java — Desafio 01: Arena de Batalha
 
-> **Tecnologias:** `Java` • `IntelliJ` • **Status:** `Em processo ⏰`
+> **Tecnologias:** `Java` • `IntelliJ` • **Status:** `Em processo⏰`
 
 Simulador de batalha por turnos desenvolvido em **Java** durante os estudos da **Maratona Java (DevDojo)** para praticar os fundamentos de Programação Orientada a Objetos (POO).
 
@@ -19,7 +19,7 @@ Simulador de batalha por turnos desenvolvido em **Java** durante os estudos da *
 
 ```text
 src/
-└── Desafio01/
+└── desafio01/
     ├── Main/
     │   ├── Personagem.java       # Regras de atributos, ataque e cálculo de dano
     │   └── PersonagemPrint.java  # Exibição formatada dos status dos lutadores
@@ -51,7 +51,7 @@ Vencedor: Goku!
    git clone https://github.com/Felps-TL/Desafio01Claude.git
    ```
 2. Abra a pasta do projeto no **IntelliJ IDEA**.
-3. Navegue até `src/Desafio01/Test/Arena.java` e execute o método `main`.
+3. Navegue até `desafio01` e execute o método `main`.
 
 ---
 
