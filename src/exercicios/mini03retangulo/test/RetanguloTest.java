@@ -20,3 +20,4 @@ public class RetanguloTest {
         System.out.println("Retângulo 1 é maior que retângulo 2? " + retangulo1.ehMaiorQue(retangulo2));
     }
 }
+//
