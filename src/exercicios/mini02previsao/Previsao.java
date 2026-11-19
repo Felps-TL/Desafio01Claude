@@ -31,4 +31,5 @@ public class Previsao {
     }
 }
 
-//Eu acho que vai imprimir um numero aleatório de caixas e de itens
+
+//
