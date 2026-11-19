@@ -1,7 +1,7 @@
-package Desafio01.Test;
+package desafio01.Test;
 
-import Desafio01.Main.Personagem;
-import Desafio01.Main.PersonagemPrint;
+import desafio01.Main.Personagem;
+import desafio01.Main.PersonagemPrint;
 
 public class Arena {
     public static void main(String[] args) {

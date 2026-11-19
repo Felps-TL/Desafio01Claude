@@ -1,4 +1,4 @@
-package Desafio01.Main;
+package desafio01.Main;
 
 public class PersonagemPrint {
     public void print(Personagem personagem) {
